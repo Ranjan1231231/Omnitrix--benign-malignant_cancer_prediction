@@ -59,7 +59,7 @@ print(len(x),'images')
 #LABEL ENCODING THE Y ARRAY(Dasy-0,Rose-1..etc)
 le=LabelEncoder()
 y=le.fit_transform(z)
-y=to_categorical(y,5)
+y=to_categorical(y,2)
 x=np.array(x)
 x=x/255
 
